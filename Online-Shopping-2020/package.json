@@ -1,0 +1,31 @@
+{
+  "name": "ma2-testing-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "nyc --reporter html --reporter text npm test",
+    "selenium": "mocha --timeout 10000 selenium.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panaitescu-paul/ma2-testing-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/panaitescu-paul/ma2-testing-project/issues"
+  },
+  "homepage": "https://github.com/panaitescu-paul/ma2-testing-project#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.2",
+    "nyc": "^15.0.1"
+  },
+  "dependencies": {
+    "chromedriver": "^83.0.0",
+    "load-json-file": "^6.2.0",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  }
+}

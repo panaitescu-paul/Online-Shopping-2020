@@ -1,0 +1,31 @@
+.panel {
+    width: 550px;
+    display: block;
+}
+.page-title {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.title {
+    text-align: center;
+}
+
+.card {
+    margin-bottom: 20px;
+    border-color: rgba(0,123,255, .5);
+    border-radius: 10px;
+}
+
+.container {
+    margin-top: 230px;
+}
+
+#card {
+    margin: auto;
+}
+
+.navbar {
+    background-color: #5c8666;
+}
