@@ -1,2 +1,2 @@
-# Online-Shopping-2020
-Online Shopping 2020
+# Online Shopping App - JavaScript - 2 - 2020
+
